@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 import telegram
 
@@ -26,7 +28,7 @@ def proc_price(bot, update):
 
    
 def get_message(bot, update) :
-    print("메시지전송완료")
+    print("receiving..")
     item=get_champ.callitem(update.message.text)
     a=1
     for i in item:
